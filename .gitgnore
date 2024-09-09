@@ -1,0 +1,33 @@
+
+---
+
+### **.gitignore**
+
+```gitignore
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos Python
+*.pyc
+__pycache__/
+*.pyo
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+
+# Arquivos de log
+*.log
+
+# Arquivos de cache do Jupyter
+.ipynb_checkpoints/
+
+# Arquivos gerados por IDEs
+.vscode/
+.idea/
+
+# Arquivos de dados
+*.csv
+*.xlsx
